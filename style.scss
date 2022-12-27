@@ -204,12 +204,15 @@ img.bg-pc{
 
 
 }
-@include media-breakpoint-up(xl){
+@include media-breakpoint-only(xl){
   .img-change{
     height: 228px;
   }
   .text-height{
     height: 600px !important;
+  }
+  .svg-item{
+    margin-right:60px;
   }
 
 
