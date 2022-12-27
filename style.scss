@@ -165,6 +165,45 @@ img.bg-pc{
     margin-top: 100px;
   }
 }
+@include media-breakpoint-only(lg) {
+  img.bg-pc{
+    position: absolute;
+    z-index: 2;
+    right: -100px;
+  }
+  .text-height{
+    height: 600px !important;
+  }
+  .font-size{
+    font-size: 41px;
+  }
+  .text-width{
+    width: 100% !important;
+  }
+  .img-size{
+    height: 143px;
+  }
+  .card-height{
+    height: 500px;
+  }
+  .font-size-title{
+    font-size: 19px !important;
+  }
+  .text-top{
+    margin-top: 30px !important;
+  }
+  .svg-img{
+    margin-right: 25px !important;
+  }
+  .fz-15{
+    font-size: 15px !important;
+  }
+  .fz-12{
+    font-size: 12px !important;
+  }
+
+
+}
 @include media-breakpoint-up(xl){
   .img-change{
     height: 228px;
